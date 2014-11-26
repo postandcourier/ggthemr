@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/style/main.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+</head>
+<body>
+	
+	<div id="logo" class="page-extent">
+		<div>ggthemr</div>
+		<svg></svg>		
+	</div>
+
+	<nav class="page-extent">
+		<ul>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="/palettes.html">Palettes</a></li>
+			<li><a href="/layouts.html">Layouts</a></li>
+			<li><a href="/modifiers.html">Modifiers</a></li>
+		</ul>
+	</nav>
+
+	<div class="page-extent">
+	<%- yield %>
+	</div>
+
+	<footer>
+		<div></div>
+		<div>
+			
+			<div>ggthemr was created by Ciarán Tobin, a data scientist/developer living in Dublin, Ireland</div>
+
+			<a class="link" href="https://github.com/">
+				<div>GitHub</div>
+				<i class="fa fa-github"></i>
+			</a>
+			
+			<a class="link" href="https://www.linkedin.com/profile/view?id=179357034&authType=NAME_SEARCH&authToken=h9wE&locale=en_US&srchid=1793570341417043750200&srchindex=1&srchtotal=11&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1793570341417043750200%2CVSRPtargetId%3A179357034%2CVSRPcmpt%3Aprimary">
+				<div>LinkedIn</div>
+				<i class="fa fa-linkedin"></i>
+			</a>
+			
+		</div>
+	</footer>
+
+	<script src="/logo.js"></script>
+
+</body>
+</html>
