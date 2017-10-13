@@ -12,7 +12,7 @@ palettes <- lapply(
   '#F15062', '#1D8ACB',
   '#9264BA', '#1CAECC',
   '#F2734F', '#1CCC65',
-  '#CCBD1C', '#1CCCBD' , '#F24F8B'), class = 'ggthemr_swatch'),
+  '#CCBD1C', '#1CCCBD' , '#F24F8B', '#A764BA', '#B4F24F', '#CC651C'), class = 'ggthemr_swatch'),
   gradient = c(low = '#F15062', high = '#1D8ACB')
   ),
 
