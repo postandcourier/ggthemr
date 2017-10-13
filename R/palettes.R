@@ -4,8 +4,8 @@ palettes <- lapply(
 
   postandcourier = list(
   background = '#f4f3f3',
-  text = c(inner = '#222222', outer = '#222222'),
-  line = c(inner = '#595959', outer = '#595959'),
+  text = c(inner = '#384558', outer = '#384558'),
+  line = c(inner = '#777777', outer = '#777777'),
   gridline = '#e0e0e5',
   swatch = structure(c(
   '#34495e',
