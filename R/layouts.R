@@ -22,9 +22,10 @@ layouts <- lapply(
       panel.grid.minor = function(...) element_line(linetype='dotted', ...)
     ),
     plain = list(
-      plot.title = function(...) element_text(face='bold', ...),
-      axis.title = function(...) element_text(face='bold', ...),
-      strip.text = function(...) element_text(face='bold', ...),
+      plot.title = function(...) element_text(family="Cartograph Sans CF", face='italic', ...),
+      plot.subtitle = function(...) element_text(family="Cartograph Sans CF", face='italic', ...),
+      axis.title = function(...) element_text(family="Cartograph Sans CF", face='bold', ...),
+      strip.text = function(...) element_text(family="Cartograph Sans CF", face='italic', ...),
       axis.line.x = function(...) element_line(...),
       axis.line.y = function(...) element_line(...),
       axis.ticks = function(...) element_blank(),
